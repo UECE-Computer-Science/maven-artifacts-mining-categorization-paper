@@ -1,0 +1,14 @@
+FROM openjdk:17-jdk-slim
+
+RUN apt-get update && apt-get install -y curl && apt-get clean
+
+WORKDIR /app
+
+RUN curl -C - -L -o /app/goblinWeaver-2.1.0.jar https://github.com/Goblin-Ecosystem/goblinWeaver/releases/download/v2.1.0/goblinWeaver-2.1.0.jar
+
+RUN chmod -R 777 /app
+
+# Entry point
+CMD ["java", "-Dneo4jUri=bolt://neo4jMavenMetrics:7687", "-Dneo4jUser=neo4j", "-Dneo4jPassword=Password1", "-jar", "/app/goblinWeaver-2.1.0.jar", "noUpdate"]
+
+EXPOSE 8080
