@@ -1,0 +1,85 @@
+# docker compose -f docker-compose.metrics.yml -p metrics build
+# docker compose -f docker-compose.metrics.yml -p metrics up -d --remove-orphans
+# docker inspect --format='{{json .State.Health}}' neo4jMavenMetrics
+
+services:
+  neo4j-metrics:
+    build:
+      context: .
+      dockerfile: Dockerfile.neo4j.metrics
+    container_name: neo4jMavenMetrics
+    ports:
+      - "7475:7474" # HTTP Interface
+      - "7688:7687" # Bolt Interface
+    environment:
+      - NEO4J_AUTH=neo4j/Password1
+      - NEO4J_dbms_memory_heap_initial__size=10G
+      - NEO4J_dbms_memory_heap_max__size=15G
+      - NEO4J_dbms_memory_pagecache_size=10G
+      - NEO4J_dbms_transaction_timeout=120s
+      - NEO4J_AUTH=neo4j/test
+      - NEO4JLABS_PLUGINS=["graph-data-science"]
+      - NEO4J_dbms_logs_query_enabled=VERBOSE
+      - NEO4J_dbms_logs_query_threshold=500ms
+      - NEO4J_dbms_logs_query_rotation_size=10M
+      - NEO4J_dbms_logs_query_rotation_keep_number=5
+      - NEO4J_dbms_transaction_timeout=350s
+    volumes:
+      - neo4j-data-metrics:/data
+      - neo4j-logs-metrics:/logs
+      - neo4j-import-metrics:/import
+      - neo4j-plugins-metrics:/plugins
+    healthcheck:
+      test: ["CMD-SHELL", "curl -s http://localhost:7474 || exit 1"]
+      interval: 20s
+      timeout: 10s
+      retries: 5
+      start_period: 120s
+    restart: on-failure
+    deploy:
+      resources:
+        limits:
+          memory: 30G
+          cpus: "4.0"
+        reservations:
+          memory: 15G
+          cpus: "2.0"
+
+  weaver-metrics:
+    build:
+      context: .
+      dockerfile: Dockerfile.weaver.metrics
+    container_name: goblinWeaverMetrics
+    ports:
+      - "8081:8080"
+    environment:
+      - NEO4J_URI=bolt://neo4jMavenMetrics:7687
+      - NEO4J_USER=neo4j
+      - NEO4J_PASSWORD=Password1
+    depends_on:
+      neo4j-metrics:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8080/ || exit 1"]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+    restart: on-failure
+    deploy:
+      resources:
+        limits:
+          memory: 5G
+          cpus: "2.0"
+        reservations:
+          memory: 2G
+          cpus: "1.0"
+
+volumes:
+  neo4j-data-metrics:
+    driver: local
+  neo4j-logs-metrics:
+    driver: local
+  neo4j-import-metrics:
+    driver: local
+  neo4j-plugins-metrics:
+    driver: local
