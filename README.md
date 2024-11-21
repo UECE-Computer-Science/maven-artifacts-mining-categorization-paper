@@ -35,6 +35,7 @@ Instance configuration in IaaS (Infrastructure as a Service)
 # To use services
 ```bash
 docker compose -f docker-compose.metrics.yml -p metrics up -d
+docker compose -f docker-compose.metrics.yml -p metrics down
 ```
 ## Logs
 ```sh
