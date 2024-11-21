@@ -31,3 +31,22 @@ Instance configuration in IaaS (Infrastructure as a Service)
 • RAM: 60 GB  
 • Network: 4.1 Gbps bandwidth  
 • Block storage: 199 GB  
+
+# To use services
+```bash
+docker compose -f docker-compose.metrics.yml -p metrics up -d
+```
+## Logs
+```sh
+docker compose -f docker-compose.metrics.yml -p metrics logs -f
+```
+## Web Browser Access (localhost or cloud)
+neo4j://localhost:7688 (for external access, jupyter, neo4j, other tools)   
+http://localhost:8081/swagger-ui/index.html  
+http://localhost:7475/browser   
+http://localhost:8889  
+
+### References
+D. Jaime, "Goblin: Neo4J Maven Central dependency graph (2024-08-30 & metrics), **Dataset, presented at the 21st International Conference on Mining Software Repositories (MSR)**, Lisbon, 2024. Available: https://doi.org/10.5281/zenodo.13734581  
+
+D. Jaime, J. El Haddad, and P. Poizat, **Navigating and Exploring Software Dependency Graphs using Goblin**, in Proceedings of the International Conference on Mining Software Repositories (MSR), 2025.  
