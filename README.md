@@ -32,15 +32,26 @@ Instance configuration in IaaS (Infrastructure as a Service)
 • Network: 4.1 Gbps bandwidth  
 • Block storage: 199 GB  
 
-# To use services
+## To use services
+### Neo4jWeaver
 ```bash
 docker compose -f docker-compose.metrics.yml -p metrics up -d
 docker compose -f docker-compose.metrics.yml -p metrics down
 ```
-## Logs
+#### Logs
 ```sh
 docker compose -f docker-compose.metrics.yml -p metrics logs -f
 ```
+### JupyterLabAnalyticsGrafo
+```bash
+docker compose up -d
+docker compose down
+```
+#### Logs
+```sh
+docker compose logs -f
+```
+
 ## Web Browser Access (localhost or cloud)
 neo4j://localhost:7688 (for external access, jupyter, neo4j, other tools)   
 http://localhost:8081/swagger-ui/index.html  
