@@ -1,76 +1,66 @@
+[![MSR25](http://2025.msrconf.org/getImage/orig/msr2025_logo_bar.jpg)](https://2025.msrconf.org/track/msr-2025-mining-challenge#Call-for-Mining-Challenge-Papers-)
 
-<div style="background-color: yellow; padding: 10px;text-align: center;">This is an example template to use</div>
+Mining Challenge
 
-# Strategies for Dependency Categorization: Tag Analysis, Differences, and Automation in Software Ecosystems
+## The Evolution of the Maven Ecosystem: Strategies for Dependency Enrichment and Categorization with Automation
 
-## Overview and Goal
-In this work, we conducted a systematic literature mapping to summarize the knowledge regarding the migration of legacy systems to the cloud. Additionally, we performed an exploratory analysis of discussions on Stack Overflow and other question-and-answer communities within the Stack Exchange network to gather professionals' perspectives on this topic and compare these perspectives with the knowledge found in the literature. The contributions of this study include identifying trends, patterns, advancements, gaps, challenges, and opportunities in the field of legacy system migration as reported in the literature. Most importantly, we developed a proof of concept for a decision support software tool using a Large Language Model (LLM) that provides targeted responses to questions about migrating legacy systems to the cloud, enhanced by the Retrieval-Augmented Generation (RAG) method.
+### Overview and Goal
 
-## Research Questions
-1. What are the challenges in migrating traditional systems to the cloud?
-2. What are the opportunities in migrating traditional systems to the cloud?
-3. What is the developer's perspective about the migration process?
+This study investigates the categorization of dependencies in Maven Central. The goal is to explore how semantic tags can enrich artifact metadata, identify differences between categorized and uncategorized dependencies, and evaluate automated approaches for systematic organization. The contributions include a qualitative and quantitative analysis of tags, macro-categorization of artifacts, and insights into dependency classification challenges and opportunities.
 
-## PICO
+### Research Questions
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/great-ufc/migration-on-premise-cloud-mapping/main/figures/PICO.png" title="PICO methodology" height="105" width="360" />
-</p>
+The research is guided by the following questions:
 
-## PRISMA
+1. **RQ1: What do the tags reveal?**
+   - Semantic and qualitative-quantitative analysis.
+   - Exploration of macro-categories and multi-categorized artifacts.
+   - Examination of which categories frequently co-occur.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/great-ufc/migration-on-premise-cloud-mapping/main/figures/PRISMA.png" title="PRISMA results" height="316" width="346" />
-</p>
+2. **RQ2: What is the difference between categorized and uncategorized dependencies?**
+   - Identification of significant differences (or lack thereof) between these groups.
 
-## PoC Development for Legacy System Migration Decision Support Tool
+3. **RQ3: Is it possible to automate the categorization process?**
+   - Use of sampling techniques and dependency intersection analysis.
+   - Evaluation of category quality and feasibility of automation.
 
-This proof of concept (PoC) project assists professionals in migrating legacy systems. The architecture involves two main components:
+### Methodology
 
-#### 1. LLM Enhancement via RAG Method
-The LLM (Llama 2) is enhanced using the Retrieval-Augmented Generation (RAG) method, which retrieves relevant content from external studies to provide more accurate responses without altering the model's core.
+#### Data Collection Workflow
 
-#### 2. Q&A System for Migration Support
-A web-based Q&A system is developed where users submit questions. These questions are processed by an API that utilizes the enhanced LLM to deliver precise and relevant responses, aiding in legacy system migration.
+1. **Artifact Extraction**:
+   - The Goblin Framework (a) was used to extract dependency data, resulting in over 658,078 artifacts from Maven Central.
 
-<b>to see more about the poc click</b> <a href="https://github.com/great-ufc/migration-on-premise-cloud-mapping/tree/main/poc/">here</a>
+2. **Provisioning Environment**:
+   - A cloud environment (b) was provisioned on Oracle Cloud to process and store extracted data in a structured CSV format (d).
 
-## Topics Modeling with LDA algorithm
+3. **Data Enrichment**:
+   - Tags for artifacts were retrieved using automated Python/Selenium scripts (c), querying the Maven Central repository (e).
+   - CSV files were enriched with tag information (f).
 
-The proposed topics modeling groups the most discussed topics in the studies included in the mapping into six clusters. We use the tool <a href="https://github.com/cpsievert/LDAvis" target="_blank">LDAvis</a>.
+#### Data Analysis Workflow
 
-Cluster 1 predominates, focusing on general migration to cloud issues. Next, we have cluster 2, which addresses technical topics such as coding issues, databases, networking, and more. Cluster 3 focuses on the migration process and metrics, including objectives, means, and performance evaluation. Clusters 4 and 5, due to the inter-topic distance, can be considered as a group of topics that deal with this business part, business risks, etc. Cluster 6 focuses on agile methodologies and software engineering in the cloud context.
+1. **Cleaning Tags**:
+   - Data cleaning processes (d) removed tags such as `#Uncategorized`, empty entries, and artifacts with incomplete metadata.
 
-<b>to see more about the topics modeling click</b> <a href="https://github.com/great-ufc/migration-on-premise-cloud-mapping/tree/main/topic%20modeling/">here</a>
+2. **Enriching Metrics**:
+   - Metrics including freshness, security, and performance were extracted (c) to enhance the dataset.
 
-## Dataset
+3. **Macro-Categorization**:
+   - Cleaned and enriched data (e) was systematically grouped into macro-categories (f) for further analysis.
 
-This folder contains all the data resulting from the study:
+### Figures
 
-- [``Legacy-Migration-to-Cloud-Papers.xlsx``](https://github.com/great-ufc/migration-on-premise-cloud-mapping/tree/main/dataset/Legacy-Migration-to-Cloud-Papers.xlsx): Table with the articles included and the data extraction processes for these articles. Contains the article ID and other information such as publication year, author, place of publication. It also contains the categories used in the extraction process and the results.
-- [``Stack-Exchange-Exploratory-Analysis-Results.xlsx``](https://github.com/great-ufc/migration-on-premise-cloud-mapping/tree/main/dataset/Stack-Exchange-Exploratory-Analysis-Results.xlsx): Table with all queries performed on <a href="https://data.stackexchange.com/" target="_blank">Stack Exchange Data Explorer<a/>. Contains the ID, search strategy, parameters and link to reproduce.
+#### Data Collection Workflow
+![Methods for Data Collection](MethodsDataCollection.jpg)
 
-## Docs
+#### Data Analysis Workflow
+![Methods for Data Analysis](MethodsDataAnalysis.jpg)
 
-This folder contains the relevant documents of the study:
+#### Conclusion
 
-- [``SystematicMappingProtocol.pdf``](https://github.com/great-ufc/migration-on-premise-cloud-mapping/tree/main/docs/SystematicMappingProtocol.pdf): The Systematic Literature Mapping protocol. Contains the objectives, methods and inclusion and exclusion criteria of the study.
+This study demonstrates the importance of structured approaches to dependency categorization in large ecosystems like Maven Central. By combining semantic analysis, automation, and systematic cleaning, it is possible to derive actionable insights and improve dependency management practices for developers and researchers.
 
-## Figures
+#### References
 
-This folder contains all the visualizations used or mentioned in the article from our study:
-
-- [``PICO.png``](https://github.com/great-ufc/migration-on-premise-cloud-mapping/tree/main/figures/PICO.png): The figure shows the implementation of the PICO methodology used in this work.
-- [``PRISMA.png``](https://github.com/great-ufc/migration-on-premise-cloud-mapping/tree/main/figures/PRISMA.png): The figure shows the implementation of the PRISMA methodology used in the systematic mapping of this work.
-- [``fig1-systematic-mapping-method.pdf``](https://github.com/great-ufc/migration-on-premise-cloud-mapping/tree/main/figures/fig1-systematic-mapping-method.pdf): The figure shows the processes that underpinned the systematic mapping of this study.
-- [``fig2-year-count.pdf``](https://github.com/great-ufc/migration-on-premise-cloud-mapping/tree/main/figures/fig2-year-count.pdf): The figure shows a bar graph of the number of articles published per year.
-- [``fig3-research-contribution-empirical.pdf``](https://github.com/great-ufc/migration-on-premise-cloud-mapping/tree/main/figures/fig3-research-contribution-empirical.pdf): The figure presents three (3) bar graphs. Graph (a) considers the number of contribution types. Graph (b) considers the number of empirical validations. Graph (c) considers the number of research types.
-- [``fig4-topics-mapped.pdf``](https://github.com/great-ufc/migration-on-premise-cloud-mapping/tree/main/figures/fig4-topics-mapped.pdf): The figure shows the visualization of topic modeling in the LDAVis tool.
-- [``fig5-challenges-and-opportunities.pdf``](https://github.com/great-ufc/migration-on-premise-cloud-mapping/tree/main/figures/fig5-challenges-and-opportunities.pdf): The figure presents two (2) bar graphs. Graph (a) presents the number of challenges for the ten (10) established categories. Graph (b) presents the number of opportunities for the eight (8) established categories.
-- [``heat-map-of-publications-per-year.pdf``](https://github.com/great-ufc/migration-on-premise-cloud-mapping/tree/main/figures/heat-map-of-publications-per-year.pdf): The figure shows a heat map of the number of articles published considering the location of the first author's affiliation.
-
-## Tables
-
-This folder contains all tables used or mentioned in the article from our study:
-
-- [``table1-search-string-dabases.xlsx``](https://github.com/great-ufc/migration-on-premise-cloud-mapping/tree/main/tables/table1-search-string-dabases.xlsx): The table of variations of the search string applied in each digital library chosen in the study.
+**[1]** D. Jaime, J. El Haddad, and P. Poizat, "Navigating and Exploring Software Dependency Graphs using Goblin," in *Proc. Int. Conf. Mining Softw. Repositories (MSR)*, 2025.
