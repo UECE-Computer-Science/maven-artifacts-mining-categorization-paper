@@ -7,7 +7,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: jupyterlab-container
+    container_name: jupyterlab-tools
     ports:
       - "8889:8888"
     healthcheck:
@@ -18,13 +18,10 @@ services:
       start_period: 15s
     environment:
       JUPYTER_ENABLE_LAB: "yes"
-      UID: "${UID}"
-      GID: "${GID}"
-      # para LLM OpenAI
-      OPENAI_API_KEY: ""
+      OPENAI_API_KEY: "<YOUR_KEY>"
       JUPYTERLAB_MEM_LIMIT: "2G"
     volumes:
-      - ./workspace:/home/jupyter/notebooks
+      - ./workspace:/home/jupyter/works
     restart: always
     deploy:
       restart_policy:
@@ -44,7 +41,3 @@ services:
       options:
         max-size: "10m"
         max-file: "3"
-
-volumes:
-  jupyter-data:
-    driver: local
