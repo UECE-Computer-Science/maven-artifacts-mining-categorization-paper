@@ -1,3 +1,6 @@
+
+<div style="background-color: yellow; padding: 10px;text-align: center;">This is an example template to use</div>
+
 # Strategies for Dependency Categorization: Tag Analysis, Differences, and Automation in Software Ecosystems
 
 ## Overview and Goal
@@ -10,9 +13,17 @@ In this work, we conducted a systematic literature mapping to summarize the know
 
 ## PICO
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/great-ufc/migration-on-premise-cloud-mapping/main/figures/PICO.png" title="PICO methodology" height="105" width="360" />
+</p>
+
 ## PRISMA
 
-## LLM for Decision Support Categorization
+<p align="center">
+  <img src="https://raw.githubusercontent.com/great-ufc/migration-on-premise-cloud-mapping/main/figures/PRISMA.png" title="PRISMA results" height="316" width="346" />
+</p>
+
+## PoC Development for Legacy System Migration Decision Support Tool
 
 This proof of concept (PoC) project assists professionals in migrating legacy systems. The architecture involves two main components:
 
@@ -20,17 +31,30 @@ This proof of concept (PoC) project assists professionals in migrating legacy sy
 The LLM (Llama 2) is enhanced using the Retrieval-Augmented Generation (RAG) method, which retrieves relevant content from external studies to provide more accurate responses without altering the model's core.
 
 #### 2. Q&A System for Migration Support
+A web-based Q&A system is developed where users submit questions. These questions are processed by an API that utilizes the enhanced LLM to deliver precise and relevant responses, aiding in legacy system migration.
 
+<b>to see more about the poc click</b> <a href="https://github.com/great-ufc/migration-on-premise-cloud-mapping/tree/main/poc/">here</a>
 
 ## Topics Modeling with LDA algorithm
 
+The proposed topics modeling groups the most discussed topics in the studies included in the mapping into six clusters. We use the tool <a href="https://github.com/cpsievert/LDAvis" target="_blank">LDAvis</a>.
 
+Cluster 1 predominates, focusing on general migration to cloud issues. Next, we have cluster 2, which addresses technical topics such as coding issues, databases, networking, and more. Cluster 3 focuses on the migration process and metrics, including objectives, means, and performance evaluation. Clusters 4 and 5, due to the inter-topic distance, can be considered as a group of topics that deal with this business part, business risks, etc. Cluster 6 focuses on agile methodologies and software engineering in the cloud context.
+
+<b>to see more about the topics modeling click</b> <a href="https://github.com/great-ufc/migration-on-premise-cloud-mapping/tree/main/topic%20modeling/">here</a>
 
 ## Dataset
 
+This folder contains all the data resulting from the study:
+
+- [``Legacy-Migration-to-Cloud-Papers.xlsx``](https://github.com/great-ufc/migration-on-premise-cloud-mapping/tree/main/dataset/Legacy-Migration-to-Cloud-Papers.xlsx): Table with the articles included and the data extraction processes for these articles. Contains the article ID and other information such as publication year, author, place of publication. It also contains the categories used in the extraction process and the results.
+- [``Stack-Exchange-Exploratory-Analysis-Results.xlsx``](https://github.com/great-ufc/migration-on-premise-cloud-mapping/tree/main/dataset/Stack-Exchange-Exploratory-Analysis-Results.xlsx): Table with all queries performed on <a href="https://data.stackexchange.com/" target="_blank">Stack Exchange Data Explorer<a/>. Contains the ID, search strategy, parameters and link to reproduce.
 
 ## Docs
 
+This folder contains the relevant documents of the study:
+
+- [``SystematicMappingProtocol.pdf``](https://github.com/great-ufc/migration-on-premise-cloud-mapping/tree/main/docs/SystematicMappingProtocol.pdf): The Systematic Literature Mapping protocol. Contains the objectives, methods and inclusion and exclusion criteria of the study.
 
 ## Figures
 
