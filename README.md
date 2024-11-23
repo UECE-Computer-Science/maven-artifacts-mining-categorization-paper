@@ -1,4 +1,4 @@
-# Estratégias para Categorização de Dependências: Análise de Tags, Diferenças e Automação em Ecossistemas de Software
+# Strategies for Dependency Categorization: Tag Analysis, Differences, and Automation in Software Ecosystems
 
 ## Overview and Goal
 In this work, we conducted a systematic literature mapping to summarize the knowledge regarding the migration of legacy systems to the cloud. Additionally, we performed an exploratory analysis of discussions on Stack Overflow and other question-and-answer communities within the Stack Exchange network to gather professionals' perspectives on this topic and compare these perspectives with the knowledge found in the literature. The contributions of this study include identifying trends, patterns, advancements, gaps, challenges, and opportunities in the field of legacy system migration as reported in the literature. Most importantly, we developed a proof of concept for a decision support software tool using a Large Language Model (LLM) that provides targeted responses to questions about migrating legacy systems to the cloud, enhanced by the Retrieval-Augmented Generation (RAG) method.
