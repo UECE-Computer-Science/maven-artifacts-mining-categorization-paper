@@ -7,7 +7,7 @@ FROM debian:bullseye-slim
 
 # Metadata
 LABEL maintainer="Erivando Sena <erivandosena@gmail.com>"
-LABEL version="1.0"Copiar GraalVM
+LABEL version="1.0"
 LABEL description="JupyterLab environment with support for GraalVM (Java), Python, R and specific libraries for graphs."
 
 # Environment variables
@@ -16,6 +16,7 @@ ENV PATH=${JAVA_HOME}/bin:$PATH
 ENV USER=jupyter
 ENV WORKDIR=/home/${USER}
 ENV JUPYTER_CONFIG_DIR=${WORKDIR}/.jupyter
+ENV LABCONFIG_DIR=$JUPYTER_CONFIG_DIR/labconfig
 ENV PATH="/opt/conda/bin:$PATH"
 
 # Copy GraalVM
@@ -24,6 +25,7 @@ COPY --from=graal-jdk-image /opt/graalvm-ce-* /opt/java/graalvm
 # Installing system dependencies
 RUN apt-get update && \
     apt-get install -y \
+        jq \
         sudo \
         bash \
         curl \
@@ -72,7 +74,8 @@ RUN /opt/conda/bin/mamba install -c conda-forge \
     graphdatascience \
     python-louvain \
     r-base \
-    r-irkernel && \
+    r-irkernel \
+    scikit-learn && \
     /opt/conda/bin/mamba clean -afy
 
 # Install unavailable packages in Conda via pip
@@ -82,7 +85,8 @@ RUN pip install \
     ipycytoscape \
     jupyterlab-link-share \
     openai \
-    python-lsp-server
+    python-lsp-server \
+    nbimporter
 
 RUN pip3 install --upgrade openai
 
@@ -137,7 +141,17 @@ RUN mkdir -p ${JUPYTER_CONFIG_DIR} && \
     echo "c.ServerApp.disable_check_xsrf = True" >> ${JUPYTER_CONFIG_DIR}/jupyter_server_config.py && \
     echo "c.ServerApp.allow_remote_access = True" >> ${JUPYTER_CONFIG_DIR}/jupyter_server_config.py && \
     echo "c.ServerApp.trust_xheaders = True" >> ${JUPYTER_CONFIG_DIR}/jupyter_server_config.py && \
-    echo "c.MappingKernelManager.default_kernel_name = 'python3'" >> ${JUPYTER_CONFIG_DIR}/jupyter_server_config.py
+    echo "c.MappingKernelManager.default_kernel_name = 'python3'" >> ${JUPYTER_CONFIG_DIR}/jupyter_server_config.py && \
+    echo "c.FileContentsManager.max_upload_size = 0" >> ${JUPYTER_CONFIG_DIR}/jupyter_server_config.py
+
+# Create/update page_config.json
+RUN mkdir -p ${LABCONFIG_DIR} && \
+    echo '{ \
+            "lockedExtensions": {}, \
+            "allowLargeFileUpload": true, \
+            "showPrompts": false, \
+            "disablePopups": true \
+          }' > ${LABCONFIG_DIR}/page_config.json
 
 WORKDIR ${WORKDIR}/works
 USER ${USER}
@@ -145,6 +159,7 @@ EXPOSE 8888
 
 ENTRYPOINT ["bash", "-c", "\
     sudo chown -Rf ${USER}:${USER} ${WORKDIR} && \
-    sudo sed -i '/jupyter ALL=(ALL) NOPASSWD:ALL/d' /etc/sudoers && \
+    ## Uncomment the line below to disable root in production
+    # sudo sed -i '/jupyter ALL=(ALL) NOPASSWD:ALL/d' /etc/sudoers && \
     jupyter lab --ip=0.0.0.0 --allow-root --no-browser --IdentityProvider.token='' \
 "]
