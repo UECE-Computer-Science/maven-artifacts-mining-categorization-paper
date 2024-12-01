@@ -1,0 +1,29 @@
+# docker compose up -d
+# http://localhost:8889/
+# Login: Password1
+
+services:
+  jupyterlab:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8889:8888"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8888 || exit 1"]
+      interval: 15s
+      retries: 10
+    environment:
+      JUPYTER_ENABLE_LAB: "yes"
+      UID: "${UID}"
+      GID: "${GID}"
+      # para LLM OpenAI
+      OPENAI_API_KEY: ""
+    volumes:
+      - ./workspace:/home/jupyter/notebooks
+    restart: unless-stopped
+    user: "${UID}:${GID}"
+
+volumes:
+  jupyter-data:
+    name: jupyter-data

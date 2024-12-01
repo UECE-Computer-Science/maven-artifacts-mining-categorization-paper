@@ -1,0 +1,190 @@
+Desenvolvimento de Software:
+#MULTI-PROJECT
+#Build Tools
+#Programming Language Utilities
+#Developer Tools
+#Software Development Kit
+#IDE Components
+#Documentation
+#Configuration Utilities and Frameworks
+#Source Control System Integration
+#Logging
+#Mocking Utilities
+#Language
+#Project Generation
+#Compilers
+#Testing Utilities and Frameworks
+#Sample-Demo-Example
+#Task Automation
+#Software Maintenance
+#Reflection
+
+
+Gerenciamento de Dados:
+#Data Management
+#Data Processors
+#Big Data
+#Data Protocols
+#Data Transport
+#Database
+#Database Access
+#NoSQL Databases
+#RDBMS Databases
+#Databases
+#Data Warehouse
+#Persistence
+#ORM Framework
+#ODM Framework
+#OGM Framework
+#Caching
+#Data Analytics
+#Data Visualization
+#File IO
+#Document Management
+#CSV
+#XML
+#JSON
+#YAML
+
+
+Integração e Comunicação:
+#Enterprise Integration
+#Messaging
+#Remoting
+#Networking Utilities
+#Network Management
+#Distributed Computing
+#VoIP and Telephony
+#SOAP
+#FTP
+#SSH and SFTP
+#SNMP
+#Email
+#RSS and Atom
+#SMS
+
+
+Web e Aplicações:
+#Web Frameworks
+#Web Application Container
+#HTTP
+#Rest
+#Server
+#Cloud Computing
+#Application and Server Management
+#Content Management
+#Social Media
+#Authentication
+#Authentication and Authorization
+#Authorization
+#Captcha Generator
+#Web Analytics
+#HTML
+#CSS
+
+
+Segurança e Gestão:
+#Security
+#Monitoring and Management
+#Identity Management
+#Credential Management
+#Transaction Managers
+#License Management
+#Configuration Management
+#Cryptography
+#Authorization
+#Identity Management
+
+
+Análise e Processamento de Dados:
+#Analytics
+#Business Intelligence and Process Management
+#Machine Learning
+#Search Engines
+#Rules Engine
+#Graph Visualization
+#Application Analytics
+#Product Analytics
+#Math and Science Calculation
+#Business Intelligence
+
+
+Utilitários e Ferramentas:
+#Test and Quality Management
+#File Utilities
+#Date and Time Utilities
+#Concurrency Utilities
+#Validation
+#Dependency Injection and Aspect-Oriented
+#Dependency Resolution
+#Compression
+#Scheduling
+#Workflow
+#Encryption
+#SMS
+#Templating
+#Format
+#Annotations
+#File Utilities
+#Mocking Utilities
+#Memory
+#Programming
+#Drivers
+#Encoder and Decoder
+#Text
+#Proxies
+#Bytecode and ASM Utilities
+#Internationalization
+#Localization
+
+
+Plataformas e Infraestrutura:
+#Application Product Development Platform
+#OSGi Libraries
+#Virtualization
+#Virtual Filesystem
+#Operating System
+#Bridges
+#Mobile
+#Desktop
+#Desktop Productivity
+
+
+Desenvolvimento Frontend:
+#GUI
+#Graphics and Image Processing
+#Graphics
+#PDF
+#Markdown
+#AsciiDoc
+#Captcha Generator
+#Audio and Video Management
+#Graphics
+
+
+Diversos:
+#Other
+#Misc
+#Robotics
+#Gaming
+#Geo
+#Localization
+#Text
+#Expression Language
+#Regular Expression
+#XPath
+#SNMP
+#SNMP
+
+
+Aplicações Empresariais:
+#CRM
+#ERP
+#Customer Relationship Management(CRM)
+#Business Intelligence
+#Payment
+#Administration
+#PDF
+#CRM
+
+
