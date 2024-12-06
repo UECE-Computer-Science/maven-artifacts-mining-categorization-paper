@@ -1,0 +1,198 @@
+Others:
+#Administration
+#Bridges
+#Misc
+#MULTI-PROJECT
+#Other
+#Rules Engine
+#Sample-Demo-Example
+#Search Engines
+#Workflow
+
+Software Quality:
+#Analytics
+#Application Analytics
+#Data Analytics
+#Data Visualization
+#Product Analytics
+#Test and Quality Management
+#Validation
+#Web Analytics
+
+Software Construction:
+#Android
+#Build Tools
+#Bytecode and ASM Utilities
+#Caching
+#Clojure
+#Collections
+#Compilers
+#Console
+#Dependency Injection and Aspect-Oriented
+#Dependency Resolution
+#Desktop
+#Desktop Productivity
+#Developer Tools
+#Enterprise Integration
+#IDE Components
+#Internationalization
+#Java Specifications
+#JMX
+#Jvm Language
+#Language
+#Localization
+#Logging
+#Memory
+#Mobile
+#ODM Framework
+#OGM Framework
+#ORM Framework
+#OSGi Libraries
+#Persistence
+#Programming
+#Programming Language Utilities
+#Reflection
+#Rest
+#SOAP
+#Software Development Kit
+#Source Control System Integration
+#Templating
+
+Software Configuration Management:
+#Annotations
+#Application and Server Management
+#AsciiDoc
+#Configuration Management
+#Configuration Utilities and Frameworks
+#Document Management
+#Documentation
+#Markdown
+#Scheduling
+#Task Automation
+#Text
+#Web Frameworks
+
+Software Engineering Management:
+#Application Product Development Platform
+#Business Intelligence
+#Business Intelligence and Process Management
+#Customer Relationship Management(CRM)
+#Monitoring and Management
+#Project Generation
+
+Software Testing:
+#Assertion
+#Mocking Utilities
+
+Software Domain:
+#Audio and Video Management
+#Gaming
+#Geo
+#Robotics
+#Social Media
+
+Software Security:
+#Authentication
+#Authentication and Authorization
+#Authorization
+#Captcha Generator
+#Credential Management
+#Cryptography
+#Encoder and Decoder
+#Identity Management
+#Security
+#SNMP
+#SSH and SFTP
+
+Computing Foundations:
+#Avro
+#Big Data
+#Data Management
+#Data Processors
+#Data Protocols
+#Data Transport
+#Data Warehouse
+#Database
+#Database Access
+#Databases
+#Distributed Computing
+#Email
+#FTP
+#HTTP
+#Machine Learning
+#Mail
+#Network Management
+#Networking Utilities
+#NoSQL Databases
+#Parallel Data Processing
+#Proxies
+#RDBMS Databases
+#Remoting
+#VoIP and Telephony
+
+Software Architeture:
+#Boot loader
+#Client
+#Clients
+#Server
+#Servers
+
+Software Engineering Operations:
+#Cloud Computing
+#Virtual Filesystem
+#Virtualization
+#Web Application Container
+
+Software Engineering Professional Practice:
+#Code Analysis
+
+Software Utilities:
+#Compression
+#Concurrency Utilities
+#CSS
+#CSV
+#Date and Time Utilities
+#File IO
+#File Utilities
+#Format
+#HTML
+#JSON
+#PDF
+#RDS
+#Regular Expression
+#RSS and Atom
+#SMS
+#XML
+#XPath
+#YAML
+
+Software Design:
+#Content Management
+#Expression Language
+#Graphics
+#Graphics and Image Processing
+#GUI
+
+Software Architecture:
+#Drivers
+#Modeling Framework
+#Operating System
+#Packaging
+
+Mathematical Foundations:
+#Graph Visualization
+#Math and Science Calculation
+
+Software Engineering Economics:
+#License Management
+#Payment
+
+Software Maintenance:
+#Software Maintenance
+
+Software Test:
+#Testing Utilities and Frameworks
+
+Computing Fundations:
+#Transaction Managers
+
