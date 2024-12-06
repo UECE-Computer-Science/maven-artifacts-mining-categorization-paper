@@ -4,9 +4,9 @@ RUN apt-get update && apt-get install -y curl && apt-get clean
 
 ENV NEO4J_AUTH=neo4j/Password1
 
-# Fazer o download do arquivo dump do dataset de:
+# Make download file dump dataset:
 # https://zenodo.org/records/13683940/files/with_metrics_goblin_maven_30_08_24.dump
-# e depois adicionar em um Bucket em nuvem para realizar o Load no container Neo4J.
+
 RUN curl -Lv -o /data/graph.dump https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/grytw8odsbsh/b/bucket-esrmining/o/with_metrics_goblin_maven_30_08_24.dump && \
     neo4j-admin load --from=/data/graph.dump --database=neo4j --force && \
     rm -fv /data/graph.dump
