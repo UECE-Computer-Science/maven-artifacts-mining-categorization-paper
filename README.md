@@ -52,10 +52,11 @@ The research is guided by the following questions:
 ### Figures
 
 #### Data Collection Workflow
-![Methods for Data Collection](MethodsDataCollection.jpg)
+![Methods for Data Analysis](imgs/MethodsDataAnalysis.jpg)
+
 
 #### Data Analysis Workflow
-![Methods for Data Analysis](MethodsDataAnalysis.jpg)
+![Methods for Data Analysis](imgs/MethodsDataAnalysis.jpg)
 
 #### Conclusion
 
