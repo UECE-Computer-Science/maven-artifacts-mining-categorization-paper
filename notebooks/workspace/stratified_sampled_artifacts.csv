@@ -1,0 +1,379 @@
+artifact,category
+org.carrot2:rome-fetcher,Others
+com.day.cq.wcm:cq-msm-api,Others
+org.eclipse.nebula:widgets.opal.checkboxgroup,Others
+org.fusesource.jansi:jansi-freebsd64,Others
+rubygems:css_parser,Others
+org.scanamo:scanamo-testkit_2.12,Others
+com.xiaomi.infra:chronos-server,Others
+com.twitter:finagle_2.9.1,Others
+com.devskiller:jfairy,Others
+org.apache.axiom:axiom-api,Others
+io.ktor:ktor-client-core-iossimulatorarm64,Others
+net.sf.okapi.filters:okapi-filter-wiki,Others
+com.ing.data:cassandra-jdbc-wrapper,Others
+com.optimizely.ab:android-sdk,Others
+com.google.code.ksoap2-android:ksoap2-j2se,Others
+io.github.jmcardon:tsec-http4s_2.12,Others
+org.apache.niolex:commons-core,Others
+rxHub.roxy:roxy-rxjava1,Others
+com.github.mjeanroy:dbunit-dataset,Others
+org.apache.geronimo.samples.daytrader.plugins:daytrader-derby-datasource,Others
+com.weicoder.extend:excel-extend,Others
+com.jcraft:jorbis,Others
+org.jboss.seam:jboss-seam-debug,Others
+com.android.support:gridlayout-v7,Others
+com.sleepycat.je:com.springsource.com.sleepycat.je,Others
+com.trolltech.qtjambi:qtjambi,Others
+uk.co.rgordon:beancmpr-test,Others
+org.amshove.kluent:kluent,Others
+org.playframework:play-pekko-http-server_3,Others
+com.gluonhq.attach:battery,Others
+org.ruemmer.philipp:princess,Others
+io.reflectoring.diffparser:diffparser,Others
+com.alipay.sdk:alipay-sdk-java,Others
+com.caoccao.javet:javet-core,Others
+org.granite:granite-flex,Others
+com.github.krasserm:akka-persistence-testkit_2.10,Others
+org.jcp:jsr94,Others
+lessvoid:nifty,Others
+clj-http:clj-http,Others
+io.quarkus.arc:arc-processor,Others
+org.elasticsearch.client:test,Others
+auto:common,Others
+oracle.jdbc:ojdbc14,Others
+com.github.vineey:rsql-querydsl-test,Others
+com.kochava.tracker:tracker,Others
+org.scorexfoundation:sdk_sjs1_2.13,Others
+com.softwaremill.sttp.client3:circe_3,Others
+com.softwaremill.sttp.client3:core_sjs1_3,Others
+org.eclipse.equinox:util,Others
+easymock:easymockcontainer,Others
+com.github.kittinunf.result:result,Others
+guru.nidi.com.eclipsesource.j2v8:j2v8_win32_x86_64,Others
+com.unitedinternet.portal.selenium.utils:logging-selenium,Others
+org.springframework.osgi:org.springframework.osgi.core,Others
+eu.danieldk.dictomaton:dictomaton,Others
+org.apache.commons:com.springsource.org.apache.commons.attributes,Others
+org.ekrich:sjavatime_native0.4_3,Others
+org.jetbrains.compose.material:material-wasm-js,Others
+net.java.dev.jai-imageio:jai-imageio-jpeg2000,Others
+axis2:axis2-wsdl,Others
+io.teecube.maven.skins:reflow-maven-skin,Others
+software.amazon.nio.s3:aws-java-nio-spi-for-s3,Others
+androidx.lifecycle:lifecycle-reactivestreams,Others
+org.spigotmc:spigot-api,Others
+net.sf.sdedit:sdedit,Others
+org.wso2.org.ops4j.pax.logging:pax-logging-api,Others
+ibatis:ibatis-sqlmap,Others
+com.feedzai.openml.lightgbm.meta:lightgbm-builder,Others
+org.wso2.eclipse.osgi:org.eclipse.osgi.compatibility.state,Others
+com.github.jsr203hadoop:jsr203hadoop,Others
+com.theokanning.openai-gpt3-java:api,Others
+com.softwaremill.sttp.tapir:tapir-openapi-model_2.13,Others
+org.scorexfoundation:interpreter_2.12,Others
+com.atlassian.crowd:crowd-integration-client,Others
+org.openpreservation.jhove.modules:pdf-hul,Others
+com.squareup.okhttp3:OkHttp,Others
+org.saynotobugs:confidence-incubator,Others
+com.softwaremill.sttp.client3:core_sjs1_2.13,Others
+danslapman:cats-conts_2.11,Others
+com.codahale:jerkson_2.9.1,Others
+io.thorntail:spi,Others
+com.sun.jndi:fscontext,Others
+org.jetbrains.compose.material:material-uikitsimarm64,Others
+org.netbeans.api:org-jdesktop-beansbinding,Others
+com.mikepenz:library-extensions-expandable,Others
+com.okta.commons:okta-http-httpclient,Software Construction
+org.apache.syncope.client.idm:syncope-client-idm-console,Software Construction
+org.jboss.osgi.testing:jbosgi-testing,Software Construction
+com.doist.x:normalize-iosarm64,Software Construction
+com.atlassian.confluence.plugins:confluence-extractor-api-plugin,Software Construction
+io.openliberty.org.codehaus.jackson:jackson-jaxrs,Software Construction
+com.google.summit:summit-ast,Software Construction
+com.thoughtworks.sde:core_2.12.0-RC1,Software Construction
+com.github.sbt:sbt-jni-core_2.13,Software Construction
+com.atlassian.bamboo:atlassian-bamboo-agent-remote,Software Construction
+com.softwaremill.sttp.client4:upickle_native0.5_2.13,Software Construction
+com.ibm:db2jcc,Software Construction
+android.compatibility:android-support-v7-appcompat,Software Construction
+androidx.paging:paging-runtime,Software Construction
+com.kenai.nbpwr:com-nilo-plaf-nimrod,Software Construction
+io.sealights.on-premise.agents.android:static-instrumentation-executor,Software Construction
+org.lrng.binding:html_sjs1_2.13,Software Construction
+potemkin:potemkin,Software Construction
+org.apache.camel.springboot:camel-groovy-starter,Software Construction
+io.branch.sdk.nativecompute:native-compute-sdk-android,Software Construction
+org.springframework:org.springframework.core,Software Construction
+hedgehog:hedgehog-sbt_2.12,Software Construction
+com.liferay.mobile:apio-consumer-android,Software Construction
+org.scalacheck:scalacheck_sjs1.0.0-M7_2.11,Software Construction
+org.mod4j.org.eclipse.team:core,Software Construction
+com.android.support:preference-v7,Software Construction
+com.edmodo:rangebar,Software Construction
+xdoclet-plugin-beaninfo:xdoclet-testapp-pojo,Software Construction
+com.sonian:elasticsearch-test-helper,Software Construction
+org.scala-sbt:zinc-testing_2.11,Software Construction
+acs:acserrj,Software Construction
+org.mod4j.org.eclipse.equinox.p2:metadata,Software Construction
+org.openrdf:openrdf-sail-nativerdf,Software Construction
+net.sf.joafip:joafip,Software Construction
+org.ow2.kerneos.graniteds:granite-core,Software Construction
+ejb:ejb,Software Construction
+com.iovation.fraudforce.lib.FraudForce:fraudforce-lib-release-3.0.1,Software Construction
+org.apache.camel.springboot:camel-netty-starter,Software Construction
+io.opentelemetry.instrumentation:opentelemetry-kafka-clients-common,Software Construction
+com.adobe.marketing.mobile:identity,Software Construction
+org.apache.camel.springboot:camel-twitter-starter,Software Construction
+activescript:jguid,Software Construction
+org.apache.camel.springboot:camel-xchange-starter,Software Construction
+jadex:binary,Software Construction
+macros:macros_2.10,Software Construction
+org.apache.camel.springboot:camel-telegram-starter,Software Construction
+org.iota:jota,Software Construction
+com.nytimes.android.external.cache:cache,Software Construction
+org.seedstack.addons.modelmapper:modelmapper,Software Construction
+org.hyperledger.besu:evm,Software Construction
+org.commonjava.aprox.embed:aprox-embedder-min,Software Construction
+com.jetbrains.intellij.platform:jps-model-serialization,Software Construction
+sun.jndi:providerutil,Software Construction
+org.apache.camel.springboot:camel-scheduler-starter,Software Construction
+net.sf.jped:jped,Software Construction
+org.overturetool.core.testing:framework,Software Construction
+org.apache.xerces:xercesImpl,Software Construction
+org.eclipse.platform:org.eclipse.egit.core,Software Construction
+org.jetbrains.kotlin:plugin-api,Software Construction
+net.sourceforge.jadex.jme3ext:lwjgl,Software Construction
+androidx.camera:camera-view,Software Construction
+io.github.alexarchambault.windows-ansi:windows-ansi,Software Construction
+mobi.boilr.libdynticker:libdynticker,Software Construction
+org.allenai:pdffigures2_2.11,Software Construction
+com.github.petitparser:petitparser-core,Software Construction
+com.oracle.oci.sdk:oci-java-sdk-addons-apache-configurator-jersey,Software Construction
+org.eclipse.equinox.p2:publisher,Software Construction
+org.apache.camel.springboot:camel-fastjson-starter,Software Construction
+org.jetbrains.idea:util-rt,Software Construction
+org.apache.camel.springboot:camel-ldap-starter,Software Construction
+org.apache.camel.springboot:camel-http-starter,Software Construction
+com.github.vertical-blank:scala-sql-formatter_2.12,Computing Foundations
+org.hibernate.gson-jbossmodules:gson-jbossmodules,Computing Foundations
+org.igniterealtime.smack:core,Computing Foundations
+micro-server:micro-core,Computing Foundations
+de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.opennlp-model-ner-en-person,Computing Foundations
+amplab:spark-indexedrdd,Computing Foundations
+com.alibaba.fastsql:fastsql,Computing Foundations
+io.realm:android-adapters,Computing Foundations
+io.chrisdavenport:log4cats-testing_2.12,Computing Foundations
+org.jboss.pressgang:pressgang-jdocbook-style,Computing Foundations
+com.kncept.sp:split-proc,Computing Foundations
+org.apache.karaf.cellar:org.apache.karaf.cellar.config,Computing Foundations
+io.ktor:ktor-client-websockets-watchosarm32,Computing Foundations
+io.ktor:ktor-server-websockets-watchosarm64,Computing Foundations
+org.apache.cxf:cxf-all.osgi,Computing Foundations
+psidev.psi.mi:psi25-xml,Computing Foundations
+com.hadoop.gplcompression:hadoop-lzo,Computing Foundations
+io.quarkus:quarkus-kubernetes-config,Computing Foundations
+com.tinkerpop:gremlin,Computing Foundations
+com.oracle:server-jre,Computing Foundations
+com.apollographql.mockserver:apollo-mockserver-js,Computing Foundations
+app.cash.sqldelight:native-driver-tvosarm64,Computing Foundations
+com.ibm.mq:dhbcore,Computing Foundations
+org.twister2:config-api-java,Computing Foundations
+io.jaegertracing:jaeger-thrift,Computing Foundations
+com.github.hazendaz.httpunit:httpunit,Computing Foundations
+io.ktor:ktor-client-darwin-tvossimulatorarm64,Computing Foundations
+org.wso2.mercury:mercury-mar,Computing Foundations
+com.oracle.ojdbc:ucp,Computing Foundations
+com.aayushatharva.brotli4j:brotli4j,Computing Foundations
+openorb:openorb-orb-omg,Computing Foundations
+ufcheck:ufcheck_2.9.0-1,Computing Foundations
+org.fosstrak.llrp:llrp-adaptor,Computing Foundations
+org.openscada.jinterop:org.openscada.jinterop.deps,Computing Foundations
+org.jboss.serialization:jboss-serialization,Computing Foundations
+jdk:jdk.dio,Computing Foundations
+co.touchlab:stately-common-tvosx64,Computing Foundations
+com.disneystreaming.smithy4s:smithy4s-core_2.12,Computing Foundations
+com.github.hazendaz.catch-exception:catch-exception,Computing Foundations
+es.moki.ratelimitj:test,Computing Foundations
+io.smallrye.reactive:smallrye-mutiny-vertx-sql-client,Computing Foundations
+org.elasticmq:elasticmq-common-test_2.12,Computing Foundations
+com.mysql.jdbc:com.springsource.com.mysql.jdbc,Computing Foundations
+org.apache.jmeter:jmeter,Computing Foundations
+com.jfirer:Fse,Computing Foundations
+de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.matetools-model-morphtagger-fr-ftb,Computing Foundations
+co.touchlab:sqliter-driver-watchosx86,Computing Foundations
+com.cloudera.api.swagger:cloudera-manager-api-swagger,Computing Foundations
+io.ktor:ktor-network-tvosarm64,Computing Foundations
+samtools:samtools,Computing Foundations
+com.benasher44:uuid-tvosx64,Computing Foundations
+org.noear:solon-web,Computing Foundations
+androidx.room:room-testing,Computing Foundations
+org.jetbrains.plugins:Groovy,Computing Foundations
+com.oracle.oc4j:ucp,Computing Foundations
+org.neo4j:neo4j-rest-graphdb,Computing Foundations
+org.scala-tools:sbt-full-launcher,Computing Foundations
+com.jfinal:jfinal-e7du,Computing Foundations
+io.ktor:ktor-client-core-tvossimulatorarm64,Computing Foundations
+org.r358.poolnetty:common,Computing Foundations
+com.arangodb:serde-api,Computing Foundations
+com.ardikars.common:common-util,Computing Foundations
+app.cash.sqldelight:runtime-macosx64,Computing Foundations
+p2.eclipse.plugin:org.eclipse.wst.common.project.facet.core,Computing Foundations
+org.jredis:jredis-core-api,Computing Foundations
+com.squareup.sqlbrite:sqlbrite,Computing Foundations
+net.percederberg:mibble-parser,Computing Foundations
+org.webjars.npm:v8-profiler,Software Architecture
+org.webjars.bower:ws,Software Architecture
+org.webjars.npm:prosemirror-changeset,Software Architecture
+org.webjars.npm:dom-helper,Software Architecture
+org.webjars.npm:linear-layout-vector,Software Architecture
+org.webjars.npm:victory-scatter,Software Architecture
+org.webjars.npm:underscore.deferred,Software Architecture
+org.webjars.npm:remotedev-utils,Software Architecture
+org.webjars.npm:types__react-day-picker,Software Architecture
+org.webjars.bower:domexception,Software Architecture
+org.webjars.npm:xmlhttp-request,Software Architecture
+org.webjars.bower:npm-check-updates,Software Architecture
+org.webjars.bower:vega-lib,Software Architecture
+org.webjars.npm:polymer__iron-autogrow-textarea,Software Architecture
+org.webjars.bower:optionator,Software Architecture
+org.webjars.bower:vega-view,Software Architecture
+org.webjars.bower:github-com-brandwatchltd-timepicker,Software Architecture
+org.webjars.npm:github-com-daviferreira-scroll-to-y,Software Architecture
+org.webjars.npm:comunica__actor-rdf-metadata-triple-predicate,Software Architecture
+org.webjars.npm:esbuild-freebsd-64,Software Architecture
+org.webjars.npm:jbone,Software Architecture
+org.webjars.bower:github-com-metal-metal-autocomplete,Software Architecture
+org.webjars.npm:public-encrypt,Software Architecture
+org.webjars.npm:ng2-slideable-directive,Software Architecture
+org.webjars.npm:postcss-value-parser,Software Architecture
+org.webjars.npm:basscss-padding,Software Architecture
+org.webjars.npm:simple-dom__document,Software Architecture
+org.webjars.bower:github-com-polymer-polymer,Software Architecture
+org.webjars.npm:broccoli-funnel-reducer,Software Architecture
+org.webjars.npm:workday__canvas-kit-css-modal,Software Architecture
+org.webjars.npm:normalize.less,Software Architecture
+org.webjars.bower:husky,Software Architecture
+org.webjars.bower:yarn,Software Architecture
+org.webjars.npm:ngraph.tojson,Software Architecture
+org.webjars.npm:haml-coffee,Software Architecture
+org.webjars.bower:babel__polyfill,Software Architecture
+org.webjars.npm:broccoli-unwatched-tree,Software Architecture
+org.webjars.bower:github-com-ExpandJS-mat-progress,Software Architecture
+org.webjars.npm:jison,Software Architecture
+org.webjars.npm:biojs-events,Software Architecture
+org.webjars.npm:knex-postgis,Software Architecture
+org.webjars.npm:stoplight__mosaic-code-editor,Software Architecture
+org.webjars.bower:github-com-ExpandJS-xp-spinner-behavior,Software Architecture
+org.webjars.npm:dagre-d3-unofficial,Software Architecture
+org.glassfish.shoal:shoal-gms-impl,Software Configuration Management
+io.gravitee.discovery:gravitee-service-discovery-api,Software Configuration Management
+org.sistcoop:elasticsearch-test-shaded-antlr4-runtime-4.5.1-1.jar,Software Configuration Management
+org.wso2.carbon.transport:org.wso2.carbon.transport.http.netty,Software Configuration Management
+org.zkoss.zk:ckez,Software Configuration Management
+org.glassfish.docs:administration-guide,Software Configuration Management
+com.github.lukaspili:flow-navigation,Software Configuration Management
+eu.unicore.services:use-wsrfclient,Software Configuration Management
+org.kanomchan:kanomchanCore,Software Configuration Management
+com.liferay:org.gradle.gradle-platform-jvm,Software Configuration Management
+org.slf4j:com.springsource.slf4j.nop,Software Configuration Management
+org.scala-js:scalajs-internal-junit-async-js-support_sjs1.0-RC2_2.11,Software Configuration Management
+com.aspose:imaging,Software Configuration Management
+io.servicecomb.tests:tracing-tests,Software Configuration Management
+org.realityforge.arez:arez-browser-extras,Software Configuration Management
+io.smallrye.reactive:mutiny-zero-flow-adapters,Software Configuration Management
+org.glassfish.jdbc:jdbc-admin,Software Configuration Management
+com.tridion.contentdelivery:cd_dynamic,Software Configuration Management
+in.yuvi:http.fluent,Software Configuration Management
+org.riftsaw:engine,Software Configuration Management
+com.sdl.web:web-oauth,Software Configuration Management
+jakarta.batch:jakarta.batch-api,Software Configuration Management
+com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base,Software Configuration Management
+com.jaspersoft.jasperserver:jasperserver-common-ws,Software Configuration Management
+org.ops4j.pax.keycloak:pax-keycloak-jetty,Software Configuration Management
+jetty:jsp-api,Software Configuration Management
+com.oath.cyclops:cyclops,Software Configuration Management
+jakarta.json:jakarta.json-api,Software Configuration Management
+org.jboss.osgi.webconsole:jbosgi-webconsole,Software Configuration Management
+org.glassfish.packager:glassfish-appclient,Software Configuration Management
+com.oracle.jdbc:ojdbc7,Software Configuration Management
+org.fujion.webjars:webjar-bootswatch-paper,Software Configuration Management
+org.apache.wicket:com.springsource.org.apache.wicket.injection,Software Configuration Management
+org.apache.karaf.examples:karaf-websocket-example,Software Quality
+org.clamshellcli:clamshell-impl-default,Software Quality
+com.buschmais.jqassistant.cli:parent,Software Quality
+org.scalaz:scalaz-core_2.9.0.RC2,Software Quality
+com.willowtreeapps.opentest4k:opentest4k-watchosarm32,Software Quality
+io.dropwizard.metrics5:metrics-annotation,Software Quality
+android.arch.persistence.room:compiler,Software Quality
+com.github.lolgab:scala-parser-combinators_native0.4.0-M2_2.11,Software Quality
+org.eclipse.p2.202309:org.eclipse.swt.win32.win32.x86_64,Software Quality
+com.ymock:ymock-client,Software Quality
+io.github.origin-energy:java-snapshot-testing-junit5,Software Quality
+org.eclipse.p2.201812:org.eclipse.core.contenttype,Software Quality
+org.eclipse.birt.runtime.3_7_1:org.eclipse.datatools.modelbase.sql,Software Quality
+io.confluent.ksql:ksqldb-rest-app,Software Quality
+org.aksw.r2rml:r2rml-jena-sql-transforms,Software Quality
+org.dynamicjava:api-bridge,Software Quality
+org.wso2.carbon:org.wso2.carbon.relay,Software Engineering Operations
+org.teiid.wildfly.connectors:feature-pack-salesforce,Software Engineering Operations
+org.eclipse.equinox:javax.servlet,Software Engineering Operations
+commons-lang.wso2:commons-lang,Software Engineering Operations
+com.google:appengine-local-runtime,Software Engineering Operations
+d-haven-managed-pool:d-haven-managed-pool,Software Engineering Operations
+org.apache.axis2.wso2:axis2-client,Software Engineering Operations
+metrics-clojure:metrics-clojure,Software Engineering Operations
+org.wso2.carbon:org.wso2.carbon.caching,Software Engineering Operations
+com.netflix.concurrency-limits:concurrency-limits-servlet,Software Engineering Operations
+com.adobe.flex:flex-messaging-common,Software Engineering Operations
+io.clj:logging,Software Engineering Operations
+org.eclipse.kapua:kapua-qa-markers,Software Engineering Operations
+io.zipkin.zipkin2:zipkin-storage-mysql-v1,Software Engineering Management
+com.atlassian.devrel:developer-toolbox-plugin,Software Engineering Management
+ru.ydn.wicket.wicket-orientdb:wicket-orientdb,Software Engineering Management
+org.activiti.api:activiti-api-process-runtime,Software Engineering Management
+com.softwaremill.sttp.client:akka-http-backend_2.11,Software Engineering Management
+com.hubspot.mesos.rx.java:mesos-rxjava-util,Software Engineering Management
+org.webjars.bowergithub.vaadin:vaadin-lumo-styles,Software Engineering Management
+org.camunda.bpm.webapp:camunda-tasklist-ui,Software Engineering Management
+io.quarkus:quarkus-oidc-client,Software Engineering Management
+com.byteowls:vaadin-chartjs,Software Engineering Management
+org.kie.soup:kie-soup-maven-support,Software Engineering Management
+org.duraspace:bagit-support,Software Engineering Management
+pl.jalokim.utils:java-utils,Software Utilities
+io.ktor:ktor-client-core-linuxx64,Software Utilities
+com.aallam.openai:openai-client-js,Software Utilities
+tk.nrktkt:ninny_3,Software Utilities
+p2.eclipse.plugin:org.eclipse.search,Software Utilities
+io.circe:circe-tests_2.12,Software Utilities
+p2.eclipse.plugin:org.eclipse.e4.ui.css.core,Software Utilities
+dev.zio:zio-schema_2.12,Software Utilities
+edu.uci.ics.hyracks:hyracks-control-nc,Software Utilities
+p2.eclipse.plugin:org.w3c.dom.smil,Software Utilities
+org.jboss.test-jsf:jsf-mockito,Software Design
+msv:msv,Software Design
+io.ktor:ktor-client-serialization-macosx64,Software Design
+org.eclipse.birt:birt,Software Design
+com.kenai.nbpwr:javax-media-jai,Software Design
+com.google:gwt-incubator-slider,Software Design
+org.opensearch.client:opensearch-spark-30_2.13,Software Design
+vigna.dsi.unimi.it:jal,Software Design
+org.apache.groovy:groovy-xml,Software Security
+com.googlecode.xremoting:xremoting-core,Software Security
+jakarta.el:jakarta.el-api,Software Security
+org.anormcypher:anormcypher_2.11,Software Security
+com.madgag.spongycastle:tls,Software Security
+apache-xerces:xercesImpl,Software Security
+com.googlecode.gwt-proxy-servlet:proxy,Software Security
+io.mobilitydata.transit:gtfs-realtime-bindings,Mathematical Foundations
+org.iru.rts.classic.wsst:safetirupload-bo,Mathematical Foundations
+org.geotools:gt-jdbc,Mathematical Foundations
+com.twmacinta:fast-md5,Mathematical Foundations
+net.disy.prototype:prototype,Mathematical Foundations
+netbeans:mof,Mathematical Foundations
+com.twitter:xrayspecs,Software Domain
+org.rxtx:rxtx-native,Software Domain
+com.badlogicgames.jamepad:jamepad,Software Domain
+info.kwarc.sally4:sally4-client,Software Domain
+com.paypal.checkout:android-sdk,Software Engineering Economics
+jivesoftware:smackx-pubsub,Software Architeture

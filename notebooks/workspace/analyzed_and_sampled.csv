@@ -1,0 +1,17 @@
+category,amount,percentage,sampled
+Others,4623,22.470107903178768,True
+Software Construction,3871,18.815009234956744,True
+Computing Foundations,3627,17.62904636920385,True
+Software Architecture,2418,11.752697579469233,True
+Software Configuration Management,1812,8.807232429279674,True
+Software Quality,865,4.204335569164965,True
+Software Engineering Operations,731,3.5530280937105085,True
+Software Engineering Management,630,3.062117235345582,True
+Software Utilities,549,2.668416447944007,True
+Software Design,437,2.124040050549237,True
+Software Security,385,1.8712938660445222,True
+Mathematical Foundations,306,1.4873140857392826,True
+Software Domain,193,0.9380771847963449,True
+Software Engineering Economics,78,0.379119276757072,True
+Software Architeture,45,0.21872265966754156,True
+Software Maintenance,4,0.01944201419267036,False
