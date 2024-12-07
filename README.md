@@ -51,12 +51,12 @@ The research is guided by the following questions:
 
 ### Figures
 
-#### Data Collection Workflow
-![Methods for Data Analysis](imgs/MethodsDataAnalysis.jpg)
+#### Data Collection and Data Analysis Workflow
+![Methods for Data Analysis](imgs/generalMethod.jpg)
 
 
-#### Data Analysis Workflow
-![Methods for Data Analysis](imgs/MethodsDataAnalysis.jpg)
+#### Methodology RQ3 Workflow
+![Methods for Data Analysis](imgs/methodologyRQ3.jpg)
 
 #### Conclusion
 
