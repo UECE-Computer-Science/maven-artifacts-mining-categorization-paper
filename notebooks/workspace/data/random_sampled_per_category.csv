@@ -1,0 +1,80 @@
+artifact,category
+org.eclipse.equinox:org.apache.jasper.glassfish,Others
+org.wikimedia:mwdumper,Others
+com.dottydingo.tracelog:service-tracelog,Others
+com.hypertino:hyperbus-t-inproc_2.11,Others
+com.github.codemonstur:embedded-redis,Others
+io.github.origin-energy:java-snapshot-testing-junit5,Software Quality
+org.apache.karaf.examples:karaf-jpa-example-provider-api,Software Quality
+com.konghq:unirest-object-mappers-gson,Software Quality
+com.testvagrant.ekam:ekam-commons,Software Quality
+org.apache.pekko:pekko-serialization-jackson_2.13,Software Quality
+org.terracotta.modules:tim-masterworker,Software Construction
+org.daisy.streamline:streamline-engine,Software Construction
+org.ow2.kerneos.graniteds:granite-core,Software Construction
+org.kevoree.extra:org.kevoree.extra.netty,Software Construction
+org.apache.subversion:svn-javahl-api,Software Construction
+com.lightbend.akka.management:akka-management-cluster-http_2.13,Computing Foundations
+com.cognitect.aws:logs,Computing Foundations
+de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.stanfordnlp-model-parser-fr-factored,Computing Foundations
+de.larsgrefer.sass:sass-embedded-host,Computing Foundations
+net.hydromatic:linq4j,Computing Foundations
+nl.basjes.gitignore:gitignore-reader,Software Engineering Economics
+com.worldpay.gateway.clearwater:clearwater-client-ui,Software Engineering Economics
+com.worldpay.gateway.clearwater:clearwater-client-core,Software Engineering Economics
+com.stripe:stripe-common,Software Engineering Economics
+com.paypal.messages:paypal-messages,Software Engineering Economics
+jdbc:ojdbc6,Software Configuration Management
+com.asayama.gwt.jquery:gwt-jquery,Software Configuration Management
+org.grails:grails-core,Software Configuration Management
+org.netbeans.mdr:jmiutils,Software Configuration Management
+com.google.code.guice:guice-servlet,Software Configuration Management
+org.apache.batik.dom:svg,Software Design
+net.sourceforge.maven-taglib:maven-taglib-plugin,Software Design
+com.day.cq:cq-replication,Software Design
+de.bwaldvogel:liblinear-dense,Software Design
+fast-md5:fast-md5,Software Design
+com.github.mmoayyed.cxf:cxf-rt-rs-client,Software Security
+de.adorsys.lock-persistence:lock-persistence-core,Software Security
+nl.vpro.shared:vpro-shared-i18n,Software Security
+org.bouncycastle:bc-util,Software Security
+org.samba:jcifs,Software Security
+com.twitter.common:flags,Software Domain
+org.apache:zookeeper,Software Domain
+com.kurento.kms:kms-interface,Software Domain
+org.mangosdk.spi:spi,Software Domain
+com.badlogicgames.gdx-controllers:gdx-controllers-ios,Software Domain
+org.springframework.cloud.fn:spring-analytics-consumer,Software Engineering Operations
+org.teiid.wildfly.connectors:connector-salesforce,Software Engineering Operations
+com.alibaba.csp:sentinel-parameter-flow-control,Software Engineering Operations
+io.github.cloudiator:common,Software Engineering Operations
+com.google.cloud.opentelemetry:shared-resourcemapping,Software Engineering Operations
+org.collectd:collectd-java,Software Engineering Management
+org.webjars.bowergithub.vaadin:vaadin-select,Software Engineering Management
+org.vaadin.addons:activelink,Software Engineering Management
+io.zipkin.zipkin2:zipkin-collector-kafka08,Software Engineering Management
+com.vaadin.webjar:vaadin-charts,Software Engineering Management
+io.higherkindness:droste-laws_2.13,Software Utilities
+org.apache.hadoop.hive:hive-serde,Software Utilities
+org.apache.pekko:pekko-http_3,Software Utilities
+org.json4s:json4s-jackson-core_native0.5_2.13,Software Utilities
+dev.optics:monocle-macro_3,Software Utilities
+com.kenai.nbpwr:gov-nasa-worldwind,Mathematical Foundations
+org.geoserver.extension:gs-monitor-core,Mathematical Foundations
+org.postgis:postgis-jdbc-jtsparser,Mathematical Foundations
+org.geotools:gt2-data,Mathematical Foundations
+org.geotools:gt2-gtopo30,Mathematical Foundations
+org.webpieces.template:http-templating-dev-lib,Software Architeture
+javapns:javapns,Software Architeture
+org.webpieces.cloud:generate-httpclient,Software Architeture
+io.reactiverse:reactive-contexts-propagators-rxjava2,Software Architeture
+org.webpieces.server.plugin:plugin-hibernate,Software Architeture
+org.webjars.npm:react-native-community__cli-platform-android,Software Architecture
+org.webjars.npm:kie-tooling-core__guided-tour,Software Architecture
+org.webjars.npm:postcss-custom-properties,Software Architecture
+org.webjars.npm:promise.pipe,Software Architecture
+org.webjars.npm:esmod-pmb,Software Architecture
+org.springdoc:springdoc-openapi-hateoas,Software Maintenance
+org.springdoc:springdoc-openapi-security,Software Maintenance
+org.vaadin.addons:tokenfield,Software Maintenance
+org.vaadin.alump.distributionbar:dbar-addon,Software Maintenance
