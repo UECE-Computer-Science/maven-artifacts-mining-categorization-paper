@@ -6,7 +6,7 @@ FROM ghcr.io/graalvm/graalvm-ce:ol8-${GRAALVM_JDK_VERSION}-${GRAALVM_VERSION} AS
 FROM debian:bullseye-slim
 
 # Metadata
-LABEL maintainer="Erivando Sena <erivandosena@gmail.com>"
+LABEL maintainer="maven-artifacts-mining-categorization-paper"
 LABEL version="1.0"
 LABEL description="JupyterLab environment with support for GraalVM (Java), Python, R and specific libraries for graphs."
 
